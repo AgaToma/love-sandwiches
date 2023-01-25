@@ -100,6 +100,13 @@ def get_last_5_entries_sales():
     
     return columns
 
+def calculate_stock_data(data):
+    """
+    Calculate average stock data and add 10%
+    """
+
+
+
 def main():
     """
     Run all program functions
@@ -114,3 +121,4 @@ print("Welcome to Love Sandwiches Data Automation")
 main()
 
 sales_columns = get_last_5_entries_sales()
+calculate_stock_data(sales_columns)
